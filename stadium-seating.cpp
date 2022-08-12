@@ -120,4 +120,5 @@ float getClassCTicketSales(){
 
    std::cin >> tickets;
    std::cout << std::endl;
+   return tickets;
 }
