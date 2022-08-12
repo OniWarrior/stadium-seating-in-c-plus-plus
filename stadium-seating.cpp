@@ -66,3 +66,8 @@ float getClassCTicketSales();
 */
 
 void printIncomeFromSales(float income);
+
+
+int main(){
+    
+}
