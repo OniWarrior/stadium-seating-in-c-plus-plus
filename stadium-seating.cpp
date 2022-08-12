@@ -64,4 +64,4 @@ float getClassCTicketSales();
    generated from Class A, B, and C ticket sales
 */
 
-
+void printIncomeFromSales(float income);
