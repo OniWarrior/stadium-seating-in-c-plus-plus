@@ -100,5 +100,10 @@ float getClassATicketSales(){
 
    std::cin >> tickets;
    std::cout << std::endl;
+   return tickets;
    
 }
+
+
+//prompt for the class b ticket sales
+
