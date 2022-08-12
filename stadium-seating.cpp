@@ -5,6 +5,7 @@
 // earned from different classes of seats at a softball game
 
 #include<iostream>
+#include<iomanip>
 
 // This is the prototype for the title function--this will print title app on-screen
 void title();
