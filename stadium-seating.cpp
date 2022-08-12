@@ -106,4 +106,6 @@ float getClassATicketSales(){
 
 
 //prompt for the class b ticket sales
-
+float getClassBTicketSales(){
+   
+}
