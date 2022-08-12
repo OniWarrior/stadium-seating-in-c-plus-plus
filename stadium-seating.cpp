@@ -110,4 +110,5 @@ float getClassBTicketSales(){
    float tickets = 0.00f;
 
    std::cin >> tickets;
+   std::cout << std::endl;
 }
