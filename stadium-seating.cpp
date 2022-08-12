@@ -39,54 +39,45 @@ void askForClassCTicketSales();
    income generated from the ticket sales of
    Class A, Class B, and Class C seating
 */
-float calculateIncome(float classASales, float classBSales, float classCSales);
+float calculateIncome(int &classASales,int  &classBSales, int &classCSales);
 
 /*
    This is the prototype for the input prompt for Class A seating
 
 */
 
-float getClassATicketSales();
+// prototype for input of class seating ticket sales
+int getClassTicketSales();
 
-/*
-   This is the prototype for the input prompt for Class B seating
-*/
 
-float getClassBTicketSales();
-
-/*
-   This is the prototype for the input prompt for Class C seating
-*/
-
-float getClassCTicketSales();
 
 /*
    This is the prototype that will print income
    generated from Class A, B, and C ticket sales
 */
 
-void printIncomeFromSales(float income);
+void printIncomeFromSales(float &income);
 
 
 // Entry point for the application
 int main(){
-   float classAIncome = 0.00f,
-         classBIncome = 0.00f,
-         classCIncome = 0.00f,
-         totalIncome  = 0.00f;
+   int   classAIncome {0},
+         classBIncome {0},
+         classCIncome {0};
+   float totalIncome  {0};
 
    title();
 
    askForClassATicketSales();
-   classAIncome = getClassATicketSales();
+   classAIncome = { getClassTicketSales() };
 
    askForClassBTicketSales();
-   classBIncome = getClassBTicketSales();
+   classBIncome = {getClassTicketSales()};
 
    askForClassCTicketSales();
-   classCIncome = getClassCTicketSales();
+   classCIncome = {getClassTicketSales()};
 
-   totalIncome = calculateIncome(classAIncome,classBIncome,classCIncome);
+   totalIncome = {calculateIncome(classAIncome,classBIncome,classCIncome)};
 
    printIncomeFromSales(totalIncome);
 
@@ -117,36 +108,18 @@ void askForClassCTicketSales(){
 }
 
 // prompt for the class a ticket sales
-float getClassATicketSales(){
-   float tickets = 0.00f;  
-
-   std::cin >> tickets;
-   std::cout << std::endl;
-   return tickets;
-   
-}
-
-
-//prompt for the class b ticket sales
-float getClassBTicketSales(){
-   float tickets = 0.00f;
-
+int getClassTicketSales(){
+   int tickets {0};
    std::cin >> tickets;
    std::cout << std::endl;
    return tickets;
 }
 
-// prompt for the class c ticket sales
-float getClassCTicketSales(){
-   float tickets = 0.00f;
 
-   std::cin >> tickets;
-   std::cout << std::endl;
-   return tickets;
-}
+
 
 // Calculates the income generated from Class A,B,and C 
-float calculateIncome(float classASales,float classBSales, float classCSales){
+float calculateIncome(int &classASales,int &classBSales, int &classCSales){
    // Prices for each class of seats
    const float priceForA = 15.00f;
    const float priceForB = 12.00f;
@@ -161,7 +134,7 @@ float calculateIncome(float classASales,float classBSales, float classCSales){
 }
 
 // Print the generated income for Class A, Class B, Class C seating sales
-void printIncomeFromSales(float income){
+void printIncomeFromSales(float &income){
    std::cout << "Generated income from Class A,B, and C seating sales: " 
              << std::setprecision(2)
              << std::fixed
