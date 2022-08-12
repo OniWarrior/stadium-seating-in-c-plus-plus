@@ -108,4 +108,6 @@ float getClassATicketSales(){
 //prompt for the class b ticket sales
 float getClassBTicketSales(){
    float tickets = 0.00f;
+
+   std::cin >> tickets;
 }
