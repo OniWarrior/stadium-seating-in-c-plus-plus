@@ -72,3 +72,24 @@ void printIncomeFromSales(float income);
 int main(){
 
 }
+
+// print title of app
+void title(){
+   std::cout << "*********************Welcome to the Stadium Seating app************************\n";
+}
+
+
+// Definition for askForClassATicketSales function
+void askForClassATicketSales(){
+   std::cout << "Please enter the number of tickets sold for Class A seats: ";
+}
+
+// print asking text for class b ticket sales
+void askForClassBTicketSales(){
+   std::cout << "Please enter the number of tickets sold for Class B seats: ";
+}
+
+// print asking text for class c ticket sales
+void askForClassCTicketSales(){
+   std::cout << "Please enter the number of tickets sold for Class C seats: ";
+}
