@@ -81,6 +81,7 @@ int main(){
    classAIncome = getClassATicketSales();
 
    askForClassBTicketSales();
+   classBIncome = getClassBTicketSales();
 
 
 
