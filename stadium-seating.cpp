@@ -70,6 +70,28 @@ void printIncomeFromSales(float income);
 
 // Entry point for the application
 int main(){
+   float classAIncome = 0.00f,
+         classBIncome = 0.00f,
+         classCIncome = 0.00f,
+         totalIncome  = 0.00f;
+
+   title();
+
+   askForClassATicketSales();
+   classAIncome = getClassATicketSales();
+
+   askForClassBTicketSales();
+   classBIncome = getClassBTicketSales();
+
+   askForClassCTicketSales();
+   classCIncome = getClassCTicketSales();
+
+   totalIncome = calculateIncome(classAIncome,classBIncome,classCIncome);
+
+   printIncomeFromSales(totalIncome);
+
+   return 0;
+
 
 }
 
