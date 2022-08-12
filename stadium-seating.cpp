@@ -86,6 +86,8 @@ int main(){
    askForClassCTicketSales();
    classCIncome = getClassCTicketSales();
 
+   totalIncome = calculateIncome(classAIncome,classBIncome,classCIncome);
+
 
 
 
