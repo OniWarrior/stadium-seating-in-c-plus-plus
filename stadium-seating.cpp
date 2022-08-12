@@ -137,3 +137,12 @@ float calculateIncome(float classASales,float classBSales, float classCSales){
 
    return income;
 }
+
+// Print the generated income for Class A, Class B, Class C seating sales
+void printIncomeFromSales(float income){
+   std::cout << "Generated income from Class A,B, and C seating sales: " 
+             << std::setprecision(2)
+             << std::fixed
+             << income
+             << std::endl;
+}
