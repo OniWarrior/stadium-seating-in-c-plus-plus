@@ -46,7 +46,8 @@ float calculateIncome(float classASales, float classBSales, float classCSales);
 
 */
 
-float getClassATicketSales();
+// prototype for input of class seating ticket sales
+int getClassTicketSales();
 
 
 
