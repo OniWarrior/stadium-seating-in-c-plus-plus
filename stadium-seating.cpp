@@ -113,3 +113,6 @@ float getClassBTicketSales(){
    std::cout << std::endl;
    return tickets;
 }
+
+// prompt for the class c ticket sales
+
