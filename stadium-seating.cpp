@@ -70,6 +70,10 @@ void printIncomeFromSales(float income);
 
 // Entry point for the application
 int main(){
+   float classAIncome = 0.00f,
+         classBIncome = 0.00f,
+         classCIncome = 0.00f;
+
 
 }
 
