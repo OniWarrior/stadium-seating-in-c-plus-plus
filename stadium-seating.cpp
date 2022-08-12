@@ -51,4 +51,4 @@ float getClassATicketSales();
    This is the prototype for the input prompt for Class B seating
 */
 
-
+float getClassBTicketSales();
