@@ -88,3 +88,6 @@ void askForClassATicketSales(){
 void askForClassBTicketSales(){
    std::cout << "Please enter the number of tickets sold for Class B seats: ";
 }
+
+// print asking text for class c ticket sales
+
