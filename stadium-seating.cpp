@@ -46,3 +46,9 @@ float calculateIncome(float classASales, float classBSales, float classCSales);
 */
 
 float getClassATicketSales();
+
+/*
+   This is the prototype for the input prompt for Class B seating
+*/
+
+
