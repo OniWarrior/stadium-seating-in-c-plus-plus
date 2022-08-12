@@ -5,3 +5,6 @@
 // earned from different classes of seats at a softball game
 
 #include<iostream>
+
+
+void title();
