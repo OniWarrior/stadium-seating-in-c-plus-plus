@@ -130,5 +130,6 @@ float calculateIncome(float classASales,float classBSales, float classCSales){
    const float priceForB = 12.00f;
    const float priceForC = 10.00f;
 
+   // Generated income from class a,b, and c sales
    
 }
