@@ -74,7 +74,9 @@ int main(){
 }
 
 // print title of app
-
+void title(){
+   
+}
 
 
 // Definition for askForClassATicketSales function
