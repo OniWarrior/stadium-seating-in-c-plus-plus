@@ -68,6 +68,7 @@ float getClassCTicketSales();
 void printIncomeFromSales(float income);
 
 
+// Entry point for the application
 int main(){
-    
+
 }
