@@ -72,3 +72,7 @@ void printIncomeFromSales(float income);
 int main(){
 
 }
+
+
+// Definition for askForClassATicketSales function
+
