@@ -88,7 +88,7 @@ int main(){
 
    totalIncome = calculateIncome(classAIncome,classBIncome,classCIncome);
 
-
+   printIncomeFromSales(totalIncome);
 
 
 }
