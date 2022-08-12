@@ -21,3 +21,5 @@ void askForClassATicketSales();
   This will print the text asking the user to enter the number of
   tickets sold for Class B seating
 */
+
+void askForClassBTicketSalets();
