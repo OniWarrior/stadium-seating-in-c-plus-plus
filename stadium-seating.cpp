@@ -75,7 +75,7 @@ int main(){
 
 // print title of app
 void title(){
-   
+   std::cout << "*********************Welcome to the Stadium Seating app************************\n";
 }
 
 
