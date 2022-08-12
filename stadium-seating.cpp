@@ -95,4 +95,6 @@ void askForClassCTicketSales(){
 }
 
 // prompt for the class a ticket sales
-
+float getClassATicketSales(){
+   
+}
