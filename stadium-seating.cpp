@@ -15,3 +15,9 @@ void title();
   tickets sold for Class A seating.
 */ 
 void askForClassATicketSales();
+
+/*
+  This is the prototype for the Class B ask text.
+  This will print the text asking the user to enter the number of
+  tickets sold for Class B seating
+*/
