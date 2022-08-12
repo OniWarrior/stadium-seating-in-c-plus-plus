@@ -4,3 +4,4 @@
 // Description: A simple program that displays the sales
 // earned from different classes of seats at a softball game
 
+#include<iostream>
