@@ -108,12 +108,7 @@ void askForClassCTicketSales(){
 }
 
 // prompt for the class a ticket sales
-float getClassATicketSales(){
-   float tickets = 0.00f;  
-
-   std::cin >> tickets;
-   std::cout << std::endl;
-   return tickets;
+int getClassTicketSales(){
    
 }
 
