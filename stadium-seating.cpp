@@ -76,6 +76,10 @@ int main(){
          totalIncome  = 0.00f;
 
    askForClassATicketSales();
+   classAIncome = getClassATicketSales();
+   
+   askForClassBTicketSales();
+
 
 
 
