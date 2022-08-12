@@ -128,5 +128,7 @@ float calculateIncome(float classASales,float classBSales, float classCSales){
    // Prices for each class of seats
    const float priceForA = 15.00f;
    const float priceForB = 12.00f;
+   const float priceForC = 10.00f;
+
    
 }
