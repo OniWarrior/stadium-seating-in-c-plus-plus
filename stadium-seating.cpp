@@ -72,10 +72,11 @@ void printIncomeFromSales(float income);
 int main(){
    float classAIncome = 0.00f,
          classBIncome = 0.00f,
-         classCIncome = 0.00f;
+         classCIncome = 0.00f,
+         totalIncome  = 0.00f;
 
    askForClassATicketSales();
-   
+
 
 
 }
