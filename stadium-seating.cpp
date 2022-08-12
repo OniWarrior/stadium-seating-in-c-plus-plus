@@ -75,4 +75,6 @@ int main(){
 
 
 // Definition for askForClassATicketSales function
-
+void askForClassATicketSales(){
+   
+}
