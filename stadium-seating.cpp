@@ -98,4 +98,7 @@ void askForClassCTicketSales(){
 float getClassATicketSales(){
    float tickets = 0.00f;
    const float CLASS_A_TICKET_PRICE = 15.00f;
+
+   std::cin >> tickets;
+   
 }
