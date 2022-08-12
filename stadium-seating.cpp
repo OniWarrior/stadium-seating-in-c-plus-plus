@@ -76,5 +76,5 @@ int main(){
 
 // Definition for askForClassATicketSales function
 void askForClassATicketSales(){
-   
+   std::cout << "Please enter the number of tickets sold for Class A seats: ";
 }
