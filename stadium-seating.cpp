@@ -39,3 +39,10 @@ void askForClassCTicketSales();
    Class A, Class B, and Class C seating
 */
 float calculateIncome(float classASales, float classBSales, float classCSales);
+
+/*
+   This is the prototype for the input prompt for Class A seating
+
+*/
+
+
