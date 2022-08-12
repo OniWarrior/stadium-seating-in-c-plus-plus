@@ -90,6 +90,8 @@ int main(){
 
    printIncomeFromSales(totalIncome);
 
+   return 0;
+
 
 }
 
