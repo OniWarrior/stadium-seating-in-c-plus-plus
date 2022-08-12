@@ -122,3 +122,6 @@ float getClassCTicketSales(){
    std::cout << std::endl;
    return tickets;
 }
+
+// Calculates the income generated from Class A,B,and C 
+
