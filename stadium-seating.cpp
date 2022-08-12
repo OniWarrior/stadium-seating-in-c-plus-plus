@@ -8,3 +8,9 @@
 
 // This is the prototype for the title function--this will print title app on-screen
 void title();
+
+/*
+  This is the prototype for the Class A ask text.
+  This will print the text asking the user to enter the number of
+  tickets sold for Class A seating.
+*/ 
