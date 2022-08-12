@@ -14,3 +14,4 @@ void title();
   This will print the text asking the user to enter the number of
   tickets sold for Class A seating.
 */ 
+void askForClassATicketSales();
