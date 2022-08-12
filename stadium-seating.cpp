@@ -45,4 +45,4 @@ float calculateIncome(float classASales, float classBSales, float classCSales);
 
 */
 
-
+float getClassATicketSales();
