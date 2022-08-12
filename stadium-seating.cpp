@@ -137,3 +137,6 @@ float calculateIncome(float classASales,float classBSales, float classCSales){
 
    return income;
 }
+
+// Print the generated income for Class A, Class B, Class C seating sales
+
