@@ -93,3 +93,32 @@ void askForClassBTicketSales(){
 void askForClassCTicketSales(){
    std::cout << "Please enter the number of tickets sold for Class C seats: ";
 }
+
+// prompt for the class a ticket sales
+float getClassATicketSales(){
+   float tickets = 0.00f;  
+
+   std::cin >> tickets;
+   std::cout << std::endl;
+   return tickets;
+   
+}
+
+
+//prompt for the class b ticket sales
+float getClassBTicketSales(){
+   float tickets = 0.00f;
+
+   std::cin >> tickets;
+   std::cout << std::endl;
+   return tickets;
+}
+
+// prompt for the class c ticket sales
+float getClassCTicketSales(){
+   float tickets = 0.00f;
+
+   std::cin >> tickets;
+   std::cout << std::endl;
+   return tickets;
+}
