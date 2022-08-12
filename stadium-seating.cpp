@@ -58,3 +58,10 @@ float getClassBTicketSales();
 */
 
 float getClassCTicketSales();
+
+/*
+   This is the prototype that will print income
+   generated from Class A, B, and C ticket sales
+*/
+
+
