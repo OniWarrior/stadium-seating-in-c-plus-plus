@@ -90,4 +90,6 @@ void askForClassBTicketSales(){
 }
 
 // print asking text for class c ticket sales
-
+void askForClassCTicketSales(){
+   
+}
