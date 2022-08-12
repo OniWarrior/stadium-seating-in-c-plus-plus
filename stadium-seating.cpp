@@ -125,5 +125,5 @@ float getClassCTicketSales(){
 
 // Calculates the income generated from Class A,B,and C 
 float calculateIncome(float classASales,float classBSales, float classCSales){
-   
+   // Prices for each class of seats
 }
