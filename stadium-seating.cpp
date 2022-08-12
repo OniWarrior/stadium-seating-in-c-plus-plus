@@ -122,3 +122,18 @@ float getClassCTicketSales(){
    std::cout << std::endl;
    return tickets;
 }
+
+// Calculates the income generated from Class A,B,and C 
+float calculateIncome(float classASales,float classBSales, float classCSales){
+   // Prices for each class of seats
+   const float priceForA = 15.00f;
+   const float priceForB = 12.00f;
+   const float priceForC = 10.00f;
+
+   // Generated income from class a,b, and c sales
+   const float income = (priceForA * classASales) + 
+                        (priceForB * classBSales) + 
+                        (priceForC * classCSales);
+
+   return income;
+}
