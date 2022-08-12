@@ -23,3 +23,9 @@ void askForClassATicketSales();
 */
 
 void askForClassBTicketSalets();
+
+/*
+  This is the prototype for the Class C ask text.
+  This will print the text asking the user to enter the number of 
+  tickets sold for Class C seating
+*/
