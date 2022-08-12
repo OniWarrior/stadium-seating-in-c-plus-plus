@@ -74,6 +74,9 @@ int main(){
          classBIncome = 0.00f,
          classCIncome = 0.00f;
 
+   askForClassATicketSales();
+   
+
 
 }
 
