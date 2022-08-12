@@ -109,7 +109,10 @@ void askForClassCTicketSales(){
 
 // prompt for the class a ticket sales
 int getClassTicketSales(){
-   
+   int tickets = 0;
+   std::cin >> tickets;
+   std::cout << std::endl;
+   return tickets;
 }
 
 
