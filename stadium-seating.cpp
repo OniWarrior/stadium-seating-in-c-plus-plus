@@ -134,4 +134,6 @@ float calculateIncome(float classASales,float classBSales, float classCSales){
    const float income = (priceForA * classASales) + 
                         (priceForB * classBSales) + 
                         (priceForC * classCSales);
+
+   return income;
 }
